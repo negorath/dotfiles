@@ -1,6 +1,8 @@
+- defaults:
+    link:
+      relink: true
+
 - clean: ['~']
 
 - link:
-    ~/.profile: profile
-
-
+    ~/.config/nvim/init.vim: config/nvim/init.vim
