@@ -5,5 +5,7 @@
 - clean: ['~']
 
 - link:
-    ~/.config/nvim/init.vim: config/nvim/init.vim
+    ~/.config/nvim/init.vim:
+      create: true
+      path: config/nvim/init.vim
     ~/.tmux.conf: tmux.conf
